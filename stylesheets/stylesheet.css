@@ -633,6 +633,11 @@ a.tar span {
   -webkit-transition: opacity ease-in-out 0.3s;  /* Safari <=6.1, Android <= 4.3 */
 }
 
+a.armed,
+a.armed span {
+  background: transparent url(../images/)
+}
+
 a.code {
   background: transparent url(../images/code.png) no-repeat 0 2px;
   width: 30px;
