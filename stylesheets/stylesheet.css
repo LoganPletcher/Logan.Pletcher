@@ -635,7 +635,22 @@ a.tar span {
 
 a.armed,
 a.armed span {
-  background: transparent url(../images/)
+  background: transparent url(../images/A&D_Game_Icon.png) no-repeat 0 0;
+  width: 41px;
+  height: 50px;
+  display: inline-block;
+  opacity: 1;
+  text-indent: -10000px;
+}
+
+a.munchkin,
+a.munchkin span {
+  background: transparent url(../images/blankcard.png) no-repeat 0 0;
+  width: 25px;
+  height: 35px;
+  display: inline-block;
+  opacity: 1;
+  text-indent: -10000px;
 }
 
 a.code {
@@ -683,6 +698,69 @@ a.download-button span {
   display: inline-block;
   text-indent: 0!important;
   color: #fff;
+}
+
+a.armed-download-button {
+	border: 2px solid #ffd700;
+	border-radius: 35px;
+	display: inline-block;
+	text-indent: 0!important;
+	width: auto;
+	float: none;
+	background: #999; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E5E4E2', endColorstr='#ACACAC'); /* IE <= 9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#E5E4E2), to(#ACACAC)); /* ancient webkit browsers */
+	background: -webkit-linear-gradient(top,  #E5E4E2,  #ACACAC);  /* Safari <=6.1, Android <= 4.3 */
+	background: linear-gradient(to bottom,  #E5E4E2,  #ACACAC);
+	height: 65px;
+	margin-left: 10px;
+}
+
+a.armed-download-button span {
+	background-position: 10px 5px;
+	width: auto;
+	height: 50px;
+	padding: 5px 5px;
+	padding-left: 53px;
+	display: inline-block;
+	text-indent: 0!important;
+	color: #ffd700;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 55px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+a.munchkin-download-button {
+	border: 5px solid #471a0e;
+	border-radius: 40px;
+	display: inline-block;
+	text-indent: 0!important;
+	width: auto;
+	float: none;
+	background: #999; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5DEB3', endColorstr='#D2B48C'); /* IE <= 9 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5DEB3), to(#D2B48C)); /* ancient webkit browsers */
+	background: -webkit-linear-gradient(top,  #F5DEB3,  #D2B48C);  /* Safari <=6.1, Android <= 4.3 */
+	background: linear-gradient(to bottom,  #F5DEB3,  #D2B48C);
+	height: auto;
+	margin-left: 10px;
+}
+
+a.munchkin-download-button span {
+	background-position: 10px 5px;
+	font-weight: bold;
+	width: auto;
+	height: auto;
+	padding: 5px 5px;
+	padding-left: 35px;
+	display: inline-block;
+	text-indent: 0!important;
+	color: #471a0e;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px;
+	font-family: "Times New Roman", Times, serif;
 }
 
 footer {
