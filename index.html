@@ -19,7 +19,7 @@
   <style>
   .tab { margin-left: 40px; }
   .small-line-space { line-height:2;}
-  img.scale { width: auto;}
+  #scale { width: auto;}
   </style>
   
 </head>
@@ -64,9 +64,12 @@
 		  <p><strong>Omniphobia</strong>, a first person virtual reality horror game developed for the Oculus Rift and Oculus Touch.
 		  <br><b>Project Head & Programmer:</b> Guy Goudeau<br><b>Other Programmers:</b> Rory Vaughn, Logan Pletcher, Austin Morrell
 		  <br><b>Artists:</b> Ava Gremillion, JeDarius Walker, Ronnie Watkins, Christian Cable, Tevin Borne<br>
-		  <script>var x = document.getEle * .33;
+		  <img id="scale" src="images/Omniphobia_1.png">
+		  <script>var x = document.getElementById("container").width;
+		  document.getElementById("container").innerHTML = x + "_";
+		  var y = 40;
+		  document.getElementById("scale").style.width = y;
 		  </script>
-		  <img class="scale" src="images/Omniphobia_1.png">
 		  <img src="images/Omniphobia_2.png" style="width:23.43vw">
 		  <img src="images/Omniphobia_3.png" style="width:23.43vw"><br class="small-line-space">
 		  <br>AIE 2015-2016 Programming First Year Class ADGP 115 Product:<br>
